@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "structurescompass",
+    "name": "Structures' Compass",
+    "description": "Search for a specific structure.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/structures-compass",
+    "updateJSON": "https://raw.githubusercontent.com/Samarium150/StructuresCompass/main/docs/update.json",
+    "authorList": ["Samarium", "SnightW"]
+  }
+]
