@@ -90,11 +90,11 @@ tasks.named("jar").configure {
     manifest {
         attributes([
             "Specification-Title": "structurescompass",
-            "Specification-Vendor": "Samarium, SnightW",
+            "Specification-Vendor": "Samarium, SnightW, LinHeLurking",
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": project.version,
-            "Implementation-Vendor" :"Samarium, SnightW",
+            "Implementation-Vendor" :"Samarium, SnightW, LinHeLurking",
             "Implementation-Timestamp": new SimpleDateFormat("yyyy-MM-dd").format(new Date())
         ])
     }

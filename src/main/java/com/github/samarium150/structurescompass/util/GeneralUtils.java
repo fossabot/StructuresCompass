@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.annotation.Nonnull;
+import java.util.Random;
 
 /**
  * General utilities for all other classes
@@ -15,6 +16,7 @@ public abstract class GeneralUtils {
     public static final String Version = "1.0.2";
     
     public static final Logger logger = LogManager.getLogger(MOD_ID);
+    public static final Random randGen = new Random();
     
     private GeneralUtils() { }
     
